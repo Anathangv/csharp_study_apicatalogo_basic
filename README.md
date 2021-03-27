@@ -18,4 +18,9 @@ Topics covered on this project:
 - Type of return
 - Http Verbs
 
-
+Create the table on MySQL
+- on visual studio 2019
+- select the menu Tools > Nuget package Manager > Package Manager Console;
+- use the command "update-database" to create and populate the data base;
+- obs: check the wether is necessary change the user or password from the connection string of the project, based on the configurations set on the mysql;
+- ApiCatalogo > appsettings.json > DefaultConnection
